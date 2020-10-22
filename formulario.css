@@ -1,21 +1,6 @@
-/* AYUDA */
-/* *{
-    border: 1px solid black;
-} */
 
-/* ESTILOS GENERALES */
 head{
     display: none;
-}
-
-body{   
-    /* display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
 }
 
 label{
@@ -29,90 +14,51 @@ input[type="text"]{
     text-transform: uppercase;
 }
 
-/* ESTILOS PARA SECCION: TOP*/
-
-.LogoTitulo{
-    /* border: 1px solid black; */
-    margin: auto;
-    width: 1200px;
-    height: 175px;
-}
-
 .Logo{
-    /* border: 1px solid black; */
-    width: 300px;
-    height: 175px;
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.Titulo{
-    /* border: 1px solid black; */
-    margin-top: 43.5px;
-    width: 650px;
-    float: left;
-}
-.Foto{
-    position: rigth;
+/* .body{
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.container{
+    text-align: center;
+    justify-content: center;
 }
 
-/* ESTILOS PARA SECCION: TITULO SOLICITUD (DE INSCRIPCION) Y MATRICULA*/
+.foto{
+    top: 50%;
+    left: 70%;
+    transform: translate(-50,-50);
+    position: absolute;
+}
+
 .checkboxsiono
 {
     margin-right: 10%;
 }
 
-/* ESTILOS PARA SECCION: CAMPOS*/
-.seccionCampos{
+.seccionDatos{
     margin: 10%;
     margin-top: 0%;
     margin-bottom: 0%;
+    text-align: center;
 }
 
-.divCarrerasMain{
-    margin: auto;
-    /* width: 1200px; */
-    height: 45px;
-}
 
-.divCarrera{
-    float: left;
-    width: 25%;
-    text-align: right;
-}
 
-.divCarrera2{
-    float: left;
-    width: 35%;
-    text-align: right;
-}
 
-.divCarrera3{
-    float: left;
-    width: 35%;
-    text-align: right;
-}
 
-/* ESTILOS PARA SECCION: BOTTOM*/
-.lineaCuatrimestre{
-    margin: auto;
-    height: 44px;
-}
 
-.divLineaCuatrimestre{
-    float: left;
-    width: 49.85%;
-}
 
-.lineaDuracionBachillerato{
-    margin: auto;
-    height: 43px;
-}
 
-.divLineaDB{
-    float: left;
-    width: 49.85%;
-}
 
-.lineaFecha{
-    text-align: right;
-}
+
+
+
